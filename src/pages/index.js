@@ -1,6 +1,7 @@
 import axios from "axios"
 import RatesTable from "../components/RatesTable"
 
+
 export default function Home({rates}) {
   return (
     <> 
@@ -19,6 +20,6 @@ export async function getServerSideProps() {
   return {
     props: {
       rates
-    }, // will be passed to the page component as props
+    }, 
   }
 }
