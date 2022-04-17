@@ -5,3 +5,7 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+body{
+    background-color: rgb(207, 207, 207);
+}
